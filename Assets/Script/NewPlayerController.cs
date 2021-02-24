@@ -31,20 +31,6 @@ public class NewPlayerController : MonoBehaviour
         {
             jumpPressed = true;
         }
-        //left dash
-        if(Input.GetButtonDown("Dash") && Input.GetButtonDown("Left") && !isDash)
-        {
-            dashDirection = 1;
-            isDash = true;
-            dashTime = dashTimeRecord;
-        }
-        //right dash
-        if (Input.GetButtonDown("Dash") && Input.GetButtonDown("Right") && !isDash)
-        {
-            dashDirection = 2;
-            isDash = true;
-            dashTime = dashTimeRecord;
-        }
     }
 
     private void FixedUpdate()
