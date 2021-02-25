@@ -342,6 +342,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
 --- !u!1 &1754814901
+  isJump: 0
+  isGround: 0
+  jumpPressed: 0
+  jumpCount: 0
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
